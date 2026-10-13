@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Papertrail — AI Study Buddy
 
 Papertrail is a local PDF library with a React frontend and FastAPI backend. Upload a PDF to extract and read its text, ask grounded questions, generate English or Hindi summaries and topic explanations, and take multiple-choice quizzes with grading and saved history.
@@ -139,3 +140,7 @@ The frontend currently has no separate unit-test script; `npm run build` runs th
 - **The PDF has no text / study tools say there is no extractable text:** The PDF may be a scan. OCR is not supported; use a PDF with a selectable text layer.
 - **The frontend opens on a different port:** Use the exact Vite URL printed in its terminal. If the API still cannot be reached, confirm the backend is listening on port 8000 and restart Vite after changing `vite.config.ts`.
 - **PowerShell cannot activate a virtual environment:** Activation is not required; the commands in this guide call `.venv\Scripts\python.exe` directly.
+=======
+# Papertrail
+study web application
+>>>>>>> 14f5641b7e4043227fbe68206b1b490d01ebe441
